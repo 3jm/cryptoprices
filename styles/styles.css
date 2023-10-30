@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to top, rgb(16, 29, 66), rgb(13, 19, 23));
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    position: relative;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .crypto-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .crypto-card {
+    background-color: rgb(13, 19, 23);
+    border: 1px solid rgb(101, 100, 219);
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s ease-out;
+  }
+
+  .crypto-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .crypto-logo {
+    max-width: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .crypto-price {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .crypto-name {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .crypto-info {
+    color: #e3e3e3;
+    font-size: 0.9em;
+    margin-bottom: 5px;
+  }
+
+  .featured-articles {
+    background-color: rgb(101, 100, 219);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  .featured-articles h2 {
+    color: #fff;
+  }
+
+  .articles-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .article {
+    background-color: rgb(13, 19, 23);
+    padding: 20px;
+    border: 1px solid rgb(101, 100, 219);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-out;
+  }
+  
+  .article:hover {
+    transform: translateY(-10px);
+  }
+  
+  .article h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .article p {
+    font-size: 1rem;
+    color: rgb(199, 199, 199);
+  }
+  
+  .featured-articles {
+    background-color: rgb(101, 100, 219);
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .featured-articles h2 {
+    font-size: 1.5rem;
+  }
+  
+  .featured-articles ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+  }
+  
+  .featured-articles li {
+    margin-bottom: 8px;
+  }
+
+  footer {
+    background-color: rgb(13, 19, 23);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+
+  .footer a {
+    color: inherit;
+  }
